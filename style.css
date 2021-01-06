@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 15px;
+}
+.name-highlite{
+    color: orange;
+}
+#header{
+    height: 600px;
+    background-image: url(imgs/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.left-header{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin: 90px 0 0px 50px;
+    
+    
+
+}
+.left-header p{
+    margin: 20px 0 15px 0; 
+}
+.left-header > button{
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, lightSalmon , tomato);
+}
+.left-header > button:hover{
+    transform: scale(1.1);
+}
+.left-header > button a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    
+
+}
+.left-header > button a:hover{
+    text-decoration: underline;
+}
+.right-header{
+    width: 43%;
+    height: 600px;
+    float: left;
+    background-image: url(imgs/image-10.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    margin: 26px 0 0 156px;
+}
+.main{
+    height: 600px;
+    background-image: url(imgs/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.left-main{
+    width: 35%;
+    height: 500px;
+    float: left;
+    margin: 90px 50px 0px 125px;
+    
+    
+
+}
+.left-main p{
+    margin: 20px 0 15px 0; 
+}
+.left-main > button{
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, lightSalmon , tomato);
+}
+.left-main > button:hover{
+    transform: scale(1.1);
+}
+.left-main > button a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    
+
+}
+.left-main > button a:hover{
+    text-decoration: underline;
+}
+.right-main{
+    width: 43%;
+    height: 600px;
+    float: left;
+    background-image: url(imgs/my-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 590px;
+    margin: 26px 0 0 23px;
+}
+.exprience-area{
+    height: 600px;
+     
+    background-image: url(imgs/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.left-area{
+    width: 35%;
+    height: 400px;
+    float: left;
+    background-color: #ffffff;
+    margin: 20px 60px;
+    padding: 10px 30px;
+    box-shadow: 8px 6px 21px 6px #888888;
+
+}
+.right-area{
+    width: 40%;
+    height: 400px;
+    float: left;
+    
+    margin: 20px 40px;
+    padding: 10px 20px;
+    box-shadow: 8px 6px 21px 6px #888888;
+}
+#line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#line2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
+}
